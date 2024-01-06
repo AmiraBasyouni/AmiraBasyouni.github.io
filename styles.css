@@ -1,3 +1,66 @@
-h1{
-  text-align: center;
+*{
+  /* The content of the element will shrink to make room for the padding and border. */
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+main{
+  margin: 0 50px;
+}
+
+a{
+    color: #666666;
+}
+
+header{
+  display: flex;
+  /* background-color: #ccbb; */
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 5px;
+  margin: 50px 50px 0 50px;
+ 
+
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+
+header>nav>ul{
+  /* background-color: red; */
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#welcome-section>img{
+  min-width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+.project-tile>ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  height: 30px;
+  align-items: center;
+  /* background-color: red; */
 }
