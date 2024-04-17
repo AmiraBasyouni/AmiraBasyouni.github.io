@@ -1,18 +1,18 @@
-*{
+* {
   /* The content of the element will shrink to make room for the padding and border. */
   box-sizing: border-box;
   text-decoration: none;
 }
 
-main{
+main {
   margin: 0 50px;
 }
 
-a{
-    color: #666666;
+a {
+  color: #666666;
 }
 
-header{
+header {
   display: flex;
   /* background-color: #ccbb; */
   align-items: center;
@@ -20,15 +20,13 @@ header{
   height: 50px;
   padding: 0 5px;
   margin: 50px 50px 0 50px;
- 
 
   font-size: 20px;
   font-family: sans-serif;
   font-weight: bold;
 }
 
-
-header>nav>ul{
+header > nav > ul {
   /* background-color: red; */
   list-style: none;
   display: flex;
@@ -36,7 +34,7 @@ header>nav>ul{
   gap: 1rem;
 }
 
-h2{
+h2 {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 17px;
@@ -44,24 +42,33 @@ h2{
   margin-left: 5px;
 }
 
-#welcome-section>img{
+#welcome-section > img {
   min-width: 100%;
   object-fit: cover;
   height: 300px;
   width: 100%;
 }
 
-.project-tile>ul{
+.project-tile > ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   gap: 1rem;
   height: 30px;
   align-items: center;
   /* background-color: red; */
+}
+
+.preview{
+	border-radius: 15px;
+	width: 300px;
+}
+
+.preview:hover{
+	opacity: .5;
 }
