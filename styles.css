@@ -2,6 +2,7 @@
   /* The content of the element will shrink to make room for the padding and border. */
   box-sizing: border-box;
   text-decoration: none;
+  margin:0;
 }
 
 main {
@@ -10,6 +11,10 @@ main {
 
 a {
   color: #666666;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 header {
@@ -26,7 +31,8 @@ header {
   font-weight: bold;
 }
 
-header > nav > ul {
+/*header > nav > ul {*/
+ul{
   /* background-color: red; */
   list-style: none;
   display: flex;
@@ -42,17 +48,21 @@ h2 {
   margin-left: 5px;
 }
 
-#welcome-section > img {
+#welcome-image {
   min-width: 100%;
   object-fit: cover;
   height: 300px;
   width: 100%;
 }
 
-.project-tile > ul {
+#project-tile{
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+}
+
+#about-me{
+	padding: 10px;
 }
 
 footer {
@@ -71,4 +81,12 @@ footer {
 
 .preview:hover{
 	opacity: .5;
+}
+
+section{
+	padding: 10px 0;
+}
+
+.content{	
+  padding: 10px;
 }

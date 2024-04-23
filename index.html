@@ -2,43 +2,54 @@
 
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="describe your page" />
+    <meta name="description" content="Amira Basyouni's Personal Website" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>AmiraB Portfolio</title>
   </head>
 
   <body>
     <header>
-      <div><a>AmiraB</a></div>
+      <div id="logo">AmiraB</div>
       <nav id="navbar">
         <ul>
-          <li>Home</li>
-          <li><a id="profile-link" target="_blank">About Me</a></li>
+          <li>Projects</li>
+          <li><a href="#about-me" id="profile-link" target="_self">About Me</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section id="welcome-section">
         <img
+	  id="welcome-image"
           src="https://images.unsplash.com/reserve/aOcWqRTfQ12uwr3wWevA_14401305508_804b300054_o.jpg?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="soothing picture"
         />
-        <h2>Home</h2>
-      </section>
-
       <section id="projects">
-        <div class="project-tile">
-          <ul>
+        <h2>Projects</h2>
+          <ul id="project-tile" class="content">
 		  <li><a href="http://amirabasyouni.com/web-dev-hw1/index.html"><img class="preview" title="2024/4/16" alt="preview of project A" src="./images/welcome-page.png"></a></li>
             <li><a>project B</a></li>
             <li><a>project C</a></li>
           </ul>
-        </div>
       </section>
+
+      <section>
+	      <h2>About Me</h2>
+	      <p class="content">My name is Amira Basyouni.<br/><br/>
+	      I am currently in my senior year at UC Davis, expecting to graduate in December of 2024.<br/><br/>
+	      I've included a link to my linkedIn and Github pages below:</p>
+	      <ul id="about-me" class="content">
+		      <li><a href="https://www.linkedin.com/in/amira-basyouni-474323221/">LinkedIn</a></li>
+		      <li><a href="https://github.com/AmiraBasyouni">Github</a></li>
+	      </ul>
+	      <p class="content"> This site is currently under development, <br/>
+	      and will include responsiveness soon. Thank you for visiting!</p>
+
+      </section>
+
       <hr />
     </main>
   </body>
@@ -46,8 +57,8 @@
   <footer>
     <p><a>basyouniamira1@gmail.com</a></p>
     |
-    <p><a>(949) xxx - xxx</a></p>
+    <p><a>(949) 232 - 9708</a></p>
     |
-    <p>© 2024 | Amira Basyouni</p>
+    <p>Copyright © 2024 Amira Basyouni</p>
   </footer>
 </html>
