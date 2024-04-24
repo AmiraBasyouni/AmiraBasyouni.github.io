@@ -5,6 +5,10 @@
   margin:0;
 }
 
+body{
+	min-width: 511px;
+}
+
 main {
   margin: 0 50px;
 }
@@ -57,16 +61,12 @@ h2 {
   width: 100%;
 }
 
-#project-tile{
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-}
 
 #about-me{
 	padding: 10px;
 }
 
+@media (min-width: 861px){
 footer {
   display: flex;
   justify-content: center;
@@ -74,6 +74,28 @@ footer {
   height: 30px;
   align-items: center;
   /* background-color: red; */
+}
+#project-tile{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+}
+
+@media (max-width: 860px){
+footer{
+	text-align: center;
+}
+.horiz-line{
+	color: white;
+}
+.ul-layout{
+	display: block;
+	text-align: center;
+}
+img{
+	width:100%;
+}
 }
 
 .preview{
