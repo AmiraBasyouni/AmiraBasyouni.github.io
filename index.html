@@ -10,8 +10,8 @@
   </head>
 
   <body>
-    <header>
-      <div id="logo">AmiraB</div>
+    <header class="contained">
+      <div id="logo">Amira Basyouni</div>
       <nav id="navbar">
         <ul>
           <li>Projects</li>
@@ -21,37 +21,63 @@
       </nav>
     </header>
 
-    <main>
+    <main class="contained">
         <img
 	  id="welcome-image"
           src="https://images.unsplash.com/reserve/aOcWqRTfQ12uwr3wWevA_14401305508_804b300054_o.jpg?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="soothing picture"
-        />
-      <section id="projects">
+	  />
+      <section id="projects" class="main-section">
         <h2>Projects</h2>
           <ul id="project-tile" class="content ul-layout">
-		  <li><a href="http://amirabasyouni.com/web-dev-hw1/index.html"><img class="preview" title="2024/4/16" alt="preview of project A" src="./images/welcome-page.png"></a></li>
-            <li><a href="http://amirabasyouni.com/game-arcade/index.html"><img class="preview" title="2024/5/4" alt="preview of project B" src="./images/project2.png"></a></li>
-            <li><a>project C</a></li>
+		  <li class="project">
+			  <a href="http://amirabasyouni.com/web-dev-hw1/index.html" class="preview">
+				  <img class="img-preview" title="2024/4/16" alt="preview of Welcome Page Project" src="./images/project1.png">
+			  <section class="project-section">
+				  <h3>About Me Page</h3>
+				  <p>html css</p>
+			  </section>
+			  </a>
+		  </li>
+
+		  <li class="project">
+			  <a class="preview" href="http://amirabasyouni.com/game-arcade/index.html">
+				  <img class="img-preview" title="2024/5/4" alt="preview of Game Arcade Project" src="./images/project2.png">
+			  <section class="project-section">
+				  <h3>Game Arcade</h3>
+				  <p>html css js</p>
+			  </section>
+			  </a>
+		  </li>
+
+		  <li class="project">
+			  <a class="preview" href="https://github.com/AmiraBasyouni/project-wordle">
+				  <img class="img-preview" title="February 2025" alt="Preview of Wordle Project" src="./images/project3.png"/>
+			  <section class="project-section">
+				  <h3>Wordle React.js</h3>
+				  <p>React.js</p>
+			  </section>
+			  </a>
+		  </li>
           </ul>
       </section>
 
-      <section>
+      <section class="main-section">
 	      <h2>About Me</h2>
 	      <div class="content gray-background">
 		      <p>My name is <b>Amira Basyouni</b>,<br/><br/>
-	      I am currently in my senior year at UC Davis, expecting to graduate in December of 2024.<br/><br/>
+	      I graduated from UC Davis on September 2024 with a BS Computer Science.<br/><br/>
 	      Feel free to visit my linkedIn and Github pages:</p>
 	      <ul id="about-me" class="ul-layout">
 		      <li><a href="https://www.linkedin.com/in/amira-basyouni-474323221/">LinkedIn</a></li>
 		      <li><a href="https://github.com/AmiraBasyouni">Github</a></li>
 	      </ul>
 	      <p> This site is currently under development, <br/>
-	      more projects will be added soon.</p>
+	      feel free to look around.</p>
 		</div>
       </section>
 
-      <hr />
+      <!--<hr />-->
     </main>
   </body>
 
