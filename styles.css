@@ -8,6 +8,7 @@
 
 body{
 	min-width: 511px;
+	background-color:#DDCAD9;
 }
 
 p{
@@ -18,10 +19,13 @@ p{
 	margin: 0px 50px 0px 50px;
 }
 
-/*main {
+main {
+/*
   background-image: url(https://images.unsplash.com/reserve/aOcWqRTfQ12uwr3wWevA_14401305508_804b300054_o.jpg?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
-}*/
+*/
+  background-color: white;
+}
 
 a {
   color: #666666;
@@ -33,11 +37,11 @@ a:hover{
 
 header {
   display: flex;
-  /* background-color: #ccbb; */
+  background-color: white; 
   align-items: center;
   justify-content: space-between;
   height: 50px;
-  padding: 80px 0px 30px 10px;
+  padding: 75px 0px 30px 10px;
   /*margin: 50px 0px 30px 0px;*/
 
   font-size: 1.4rem;
@@ -99,7 +103,6 @@ footer {
   gap: 1rem;
   height: 30px;
   align-items: center;
-  /* background-color: red; */
 }
 #project-tile{
   list-style: none;
@@ -183,5 +186,5 @@ li{
 }
 
 footer{
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: white;
 }
