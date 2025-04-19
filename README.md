@@ -1,7 +1,7 @@
 # Portfolio
 
-The portfolio of Amira Basyouni
+Hello, this is the portfolio of Amira Basyouni
 
-To view, please visit: AmiraBasyouni.github.io
+To view, visit the link: www.amirabasyouni.com or AmiraBasyouni.github.io
 
-color pallet: https://coolors.co/6a605c-e5e9ec-ddcad9-d1b1cb-463f3a
+The color pallet I'm using: https://coolors.co/6a605c-e5e9ec-ddcad9-d1b1cb-463f3a
