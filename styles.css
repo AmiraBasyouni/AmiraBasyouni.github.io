@@ -15,8 +15,10 @@ p{
 	font-size: 1.05rem;
 }
 
+@media (min-width: 560px){
 .contained-lvl1{
 	margin: 0px 50px 0px 50px;
+}
 }
 
 .contained-lvl2{
@@ -102,13 +104,6 @@ section p{
 }
 
 @media (min-width: 1121px){
-footer {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  height: 30px;
-  align-items: center;
-}
 #project-tile{
   list-style: none;
   display: flex;
@@ -117,12 +112,6 @@ footer {
 }
 
 @media (max-width: 1120px){
-footer{
-	text-align: center;
-}
-.horiz-line{
-	color: white;
-}
 .ul-layout{
 	display: block;
 	text-align: center;
@@ -196,6 +185,15 @@ li{
 	color: #463F3A;
 }
 
-footer{
-	background-color: white;
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  height: 30px;
+  align-items: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
