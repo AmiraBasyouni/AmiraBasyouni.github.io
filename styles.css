@@ -171,6 +171,12 @@ img{
 	margin: 15px 0px 0px 0px;
 }
 
+.project-category{
+	font-style: italic;
+	font-size:1rem;
+	color: rgb(40, 40, 40);
+}
+
 .main-section{
 	padding-top: 15px;
 	padding-bottom:15px;
