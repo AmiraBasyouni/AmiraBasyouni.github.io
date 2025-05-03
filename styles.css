@@ -59,7 +59,8 @@ header {
 	text-align: center;
 	padding-top: 75px;
 	padding-bottom: 10px;
-	background-color: gainsboro;
+	background-color: #3e4052;
+	color: white;
 }
 
 /*header > nav > ul {*/
