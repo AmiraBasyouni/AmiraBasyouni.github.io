@@ -16,10 +16,13 @@ p{
 
 a {
   color: #666666;
+  display:block;
 }
 
 a:hover{
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	background-color: #e3e0e7;
+	color:black;
 }
 
 .contained-lvl2{
@@ -40,6 +43,15 @@ a:hover{
   max-height: 300px;
   width: 100%;
   opacity: 100%;
+}
+
+.navbar-item{
+	width:100%;
+}
+.navbar-link{
+	width:100%;
+	text-align: center;
+	padding: 10px 0px;
 }
 
 main {
@@ -111,6 +123,9 @@ section p{
  #about-me-ul{
 	 justify-content:center;
  }
+ #about-me-ul li a{
+ 	padding: 10px;
+ }
 
 /* Smaller Devices ------------------------*/
 @media (max-width: 1120px){
@@ -147,28 +162,21 @@ section p{
 }
 }
 
-
-.project:hover{
-	background-color: rgba(107, 89, 113, 0.5);
-	border-color: rgba(107, 89, 113, 0.5);
-	/*opacity: .8;*/
-}
-
-.preview{
-  color: black;
-}
 .preview:hover{
+  background-color: rgba(107, 89, 113, 0.5);
+  border-color: rgba(107, 89, 113, 0.5);
+  color: black;
   text-decoration: none;
 }
 
-.project{  
+.preview{
 	background-color: white;
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 10px;
 	border-color: white;
 	margin: 15px 4%;
-	/*padding: 22px;*/
+	padding: 10px;
 }
 
 .project-category{
@@ -180,10 +188,6 @@ section p{
 .main-section{
 	padding-top: 15px;
 	padding-bottom:15px;
-}
-
-li{	
-  padding: 10px;
 }
 
 .gray-background{
