@@ -17,10 +17,11 @@ p{
 a {
   color: #666666;
   display:block;
+  text-decoration: underline;
 }
 
 a:hover{
-	/*text-decoration: underline;*/
+	/*text-decoration: none;*/
 	background-color: #e3e0e7;
 	color:black;
 }
