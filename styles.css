@@ -15,11 +15,6 @@ h1{
 	font-size: 1.2rem;
 }
 
-p{
-	font-size: 1.05rem;
-	color: black;
-}
-
 a {
   color: #4a4a4a;
   display:block;
@@ -39,8 +34,7 @@ a:hover{
 
 #logo{
 	text-align: center;
-	/*padding-top: 45px;*/
-	padding: 10px;
+	padding: 11px;
 	background-color: #312733;
 	color: white;
 }
@@ -87,6 +81,7 @@ header {
   /*flex-direction: column;*/
   align-items: center;
   justify-content: space-between;
+  padding-top: 10px;
 
   font-size: 1.3rem;
   /*font-family: sans-serif;*/
@@ -148,36 +143,6 @@ h3 {
  	padding: 10px;
  }
 
-/* Smaller Devices ------------------------*/
-@media (max-width: 1120px){
-  /* remove pink backdrop */
-  .contained-lvl1{
-	  margin: 0px;
-  }
-  /* removes flex, aligns items vertically*/
-  #about-me-ul, #project-tile{
-  	display: block;
-  	text-align: center;
-  }
-  /* increases size of projects' image preview*/
-  .img-preview{
-	  max-width: 400px;
-  }
-  /* resize project title*/
-  /*.project-title {
-	  font-size: 1.8rem;
-  }*/
-/*
-.project{
-	padding: 25px 0px;
-	margin: 10px 15%;
-}
-*/
-/* center align project titles */
-.project-section h3, .project-section p{
-  padding: 0px;
-}
-}
 
 .preview:hover{
   background-color: rgba(107, 89, 113, 0.5);
@@ -236,8 +201,45 @@ footer {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  height: 30px;
   align-items: center;
-  background-color: white;
-  padding: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-size: 0.95rem;
+  color: #4f4f4f;
+}
+
+
+/* Smaller Devices ------------------------*/
+@media (max-width: 1120px){
+  /* remove pink backdrop */
+  .contained-lvl1{
+	  margin: 0px;
+  }
+  /* removes flex, aligns items vertically*/
+  #about-me-ul, #project-tile, header, footer{
+  	display: block;
+  	text-align: center;
+  }
+  /* increases size of projects' image preview*/
+  .img-preview{
+	  max-width: 400px;
+  }
+  /* turns horizontal line's font to white */
+  .horiz-line{
+	  color: #f2f2f2;
+  }
+  header{
+	  padding-top:0px;
+  }
+/* center align project titles */
+.project-section h3, .project-section p{
+  padding: 0px;
+}
+}
+
+/* Extra Small Devices ------------------------*/
+@media (max-width: 432px){
+	#navbar-list{
+		display:block;
+	}
 }
