@@ -1,94 +1,108 @@
 <!doctype html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Amira Basyouni's Portfolio Website" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Amira's Portfolio</title>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Amira Basyouni's Portfolio Website" />
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Amira's Portfolio</title>
+	</head>
 
-  <body>
-    <header class="contained-lvl1">
-      <h1 id="logo">Amira's Portfolio</h1>
-      <nav id="navbar">
-        <ul id="navbar-list">
-		<li class="navbar-item"><a class="navbar-link" href="#about-me" id="profile-link" target="_self">About Me</a></li>
-		<li class="navbar-item"><a class="navbar-link" href="#projects" target="_self">Projects</a></li>
-		<li class="navbar-item"><a class="navbar-link" href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+	<body>
+		<header>
+			<h1 id="h1-logo">Amira's Portfolio</h1>
+		</header>
+		
+		<nav id="navbar">
+			<div id="sticky">
+				<h1 id="h1-index">Index</h1>
+				<ul id="navbar-list">
+					<li class="navbar-item"><a class="navbar-link" href="#about-me" id="profile-link" target="_self">About Me</a></li>
+					<li class="navbar-item"><a class="navbar-link" href="#projects" target="_self">Projects</a></li>
+					<li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
 
-    <main class="contained-lvl1">
-      <section id="about-me" class="main-section contained-lvl2">
-	      <h2>About Me</h2>
-	      <div class="content gray-background">
-		      <p>My name is <b>Amira Basyouni</b><br/><br/>
-	      I graduated from UC Davis on September, 2024, with a BS in Computer Science<br/><br/>
-	      Here is my LinkedIn and Github page:</p>
-	      <ul id="about-me-ul">
-		      <li><a href="https://www.linkedin.com/in/amira-basyouni-474323221/">LinkedIn</a></li>
-		      <li><a href="https://github.com/AmiraBasyouni">Github</a></li>
-	      </ul>
-	      <p> This portfolio is currently under development <br/>
-	      the content is copyrighted <br/>
-	      you're free to explore</p>
-		</div>
-      </section>
+		<main class="contained-lvl1">
+			<section id="about-me" class="main-section contained-lvl2">
+				<h2>About Me</h2>
+				<div class="content gray-background">
+					<p>My name is <b>Amira Basyouni</b><br/><br/>
+					I graduated from UC Davis on September, 2024, with a BS in Computer Science<br/><br/>
+					This portfolio is currently under development <br/><br/>
+					the content is copyrighted <br/>
+					you're free to explore!</p>
+				</div>
+			</section>
 
-      <section id="projects" class="main-section contained-lvl2">
-        <h2>Projects</h2>
-          <ul id="project-tile" class="content ul-layout">
-		  <li class="project">
-			  <a href="http://amirabasyouni.com/welcome-page/" class="preview">
-				  <picture>
-					  <source srcset="./images/project1.webp" type="image/webp">
-				  <img class="img-preview" title="created on 2024/4/16" alt="preview of project called About Me Page" src="./images/project1.png">
-				  </picture>
-			  <section class="project-section">
-				  <h3 class="project-title">About Me Page</h3>
-				  <p>html css</p>
-			  </section>
-			  </a>
-		  </li>
+			<section id="projects" class="main-section contained-lvl2">
+				<h2>Projects</h2>
+				<ul id="project-tile" class="content ul-layout">
 
-		  <li class="project">
-			  <a class="preview" href="http://amirabasyouni.com/game-arcade/">
-				  <picture>
-					  <source srcset="./images/project2.webp" type="image/webp">
-				  <img class="img-preview" title="created on 2024/5/4" alt="preview of Project called Game Arcade" src="./images/project2.png">
-				  </picture>
-			  <section class="project-section">
-				  <h3 class="project-title">Game Arcade</h3>
-				  <p>html css js</p>
-			  </section>
-			  </a>
-		  </li>
+					<li class="project">
+						<a class="preview" href="http://amirabasyouni.com/project-wordle">
+							<picture>
+								<source srcset="./images/project3.webp" type="image/webp">
+								<img class="img-preview" title="created on February 2025" alt="Preview of project called Wordle" src="./images/project3.png"/>
+							</picture>
 
-		  <li class="project">
-			  <a class="preview" href="http://amirabasyouni.com/project-wordle">
-				  <picture>
-					  <source srcset="./images/project3.webp" type="image/webp">
-				  <img class="img-preview" title="created on February 2025" alt="Preview of project called Wordle" src="./images/project3.png"/>
-				  </picture>
-			  <section class="project-section">
-				  <h3 class="project-title">Wordle <span class="project-category">(tutorial project)</span></h3>
-				  <p>React.js</p>
-			  </section>
-			  </a>
-		  </li>
-          </ul>
-      </section>
+							<section class="project-section">
+								<h3 class="project-title">Wordle <span class="project-category">(tutorial project)</span></h3>
+								<p>React.js</p>
+							</section>
+						</a>
+					</li>
+					
+					<li class="project">
+						<a class="preview" href="http://amirabasyouni.com/game-arcade/">
+							<picture>
+								<source srcset="./images/project2.webp" type="image/webp">
+								<img class="img-preview" title="created on 2024/5/4" alt="preview of Project called Game Arcade" src="./images/project2.png">
+							</picture>
 
-      <!--<hr />-->
-    </main>
-  </body>
+							<section class="project-section">
+								<h3 class="project-title">Game Arcade</h3>
+								<p>html css js</p>
+							</section>
+						</a>
+					</li>
 
-  <footer class="contained-lvl1">
-    <p>copyright © 2023-2025 Amira Basyouni</p>
-    <div class="horiz-line">|</div>
-    <p>contact: work.amirab@gmail.com</p>
-  </footer>
+					<li class="project">
+						<a href="http://amirabasyouni.com/welcome-page/" class="preview">
+							<picture>
+								<source srcset="./images/project1.webp" type="image/webp">
+								<img class="img-preview" title="created on 2024/4/16" alt="preview of project called About Me Page" src="./images/project1.png">
+							</picture>
+
+							<section class="project-section">
+								<h3 class="project-title">About Me Page</h3>
+								<p>html css</p>
+							</section>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<section id="contact" class="main-section contained-lvl2">
+				<h2>Contact</h2>
+				<div class="content gray-background">
+					<p>I am on:</p><br/>
+					<ul id="about-me-ul">
+						<li><a href="https://www.linkedin.com/in/amira-basyouni-474323221/">LinkedIn</a></li>
+						<li><a href="https://github.com/AmiraBasyouni">Github</a></li>
+						<li><a href="https://bsky.app/profile/amirabasyouni.bsky.social">BlueSky</a></li>
+					</ul>
+				</div>
+			</section>
+			<!--<hr />-->
+		</main>
+	</body>
+
+	<footer>
+		<p>copyright © 2023-2025 Amira Basyouni</p>
+		<div class="horiz-line">|</div>
+		<p>contact: work.amirab@gmail.com</p>
+	</footer>
 </html>
