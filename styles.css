@@ -265,7 +265,7 @@ footer>p{
 
 
 /* smaller devices ------------------------*/
-@media (max-width: 740px){
+@media (max-width: 750px){
 	body{
 		grid-template-areas: 'title title' 'sidebar sidebar' 'main main' 'footer footer'
 	}
