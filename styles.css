@@ -212,9 +212,6 @@ ul{
   gap: 5px;
 }
 
-.project{
-	margin: 1% 0px;
-}
 
 /*
 .project-section{
@@ -239,7 +236,7 @@ ul{
 .gray-background{
 	background-color: #EFDEEB;
 	border-radius: 10px;
-	margin: 20px 30px;
+	margin: 20px 0px;
 	padding: 30px;
 	padding-left: 25px;
 	box-shadow:-10px 10px 5px;
@@ -265,7 +262,7 @@ footer>p{
 
 
 /* smaller devices ------------------------*/
-@media (max-width: 750px){
+@media (max-width: 760px){
 	body{
 		grid-template-areas: 'title title' 'sidebar sidebar' 'main main' 'footer footer'
 	}
