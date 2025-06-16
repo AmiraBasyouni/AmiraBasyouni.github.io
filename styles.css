@@ -1,7 +1,6 @@
 * {
-  /* The content of the element will shrink to make room for the padding and border. */
   /*box-sizing: border-box;*/
-  text-decoration: none;
+  /*text-decoration: none;*/
   margin:0;
   font-family: sans-serif;
 }
@@ -22,6 +21,16 @@ body{
   grid-template-areas: 'sidebar title''sidebar main' 'x footer';
 }
 
+ul{
+  padding: 0px;
+  list-style: none;
+/*  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;*/
+  font-weight: bold;
+}
+
+
 h1 {
 	font-size: 1.6rem;
 	color: var(--font-color-h);
@@ -37,6 +46,12 @@ h1 {
 	padding-bottom: 15px;
 	/*color: #f1f1f1;*/
 }
+
+#sticky {
+	position: sticky;
+	top:0;
+}
+
 
 #h1-logo{
 	text-align: center;
@@ -62,22 +77,12 @@ h3 {
   color: var(--font-color-h);
 }
 
-p {
-	color: #6A2F5D;
-	/*font-family: Lucida Console, Monaco;*/
-}
-
 header {
 	grid-area: title;
 	background-color: var(--backdrop-color); 
 	
 	/*font-family: sans-serif;*/
 	/*font-weight: bold;*/
-}
-
-#sticky {
-	position: sticky;
-	top:0;
 }
 
 
@@ -91,6 +96,13 @@ a:hover{
 	text-decoration: none;
 	background-color: #ffffff45;
 	color:black;
+}
+
+p , .p{
+	color: #6A2F5D;
+	text-decoration: none;
+	font-weight: normal;
+	/*font-family: Lucida Console, Monaco;*/
 }
 
 .contained-lvl1{
@@ -144,18 +156,6 @@ main {
   background-color: #ebc9e2;
 }
 
-
-
-
-/*header > nav > ul {*/
-ul{
-  padding: 0px;
-  list-style: none;
-/*  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;*/
-  font-weight: bold;
-}
 
 .project-title {
  /*padding: 0px 0px 0px 10px;*/
